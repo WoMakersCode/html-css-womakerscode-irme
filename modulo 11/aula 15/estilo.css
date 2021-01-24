@@ -1,0 +1,11 @@
+.container {
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: 100px 100px 50px;
+  grid-gap: 10px;
+}
+
+.caixa {
+  background: pink;
+  padding: 20px;
+}

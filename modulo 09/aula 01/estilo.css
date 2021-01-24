@@ -1,0 +1,9 @@
+.botao {
+  padding: 8px;
+  background-color: #e768f2;
+  transition: background-color .5s;
+}
+
+.botao:hover {
+  background-color: #68f0f2;
+}

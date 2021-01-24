@@ -1,0 +1,14 @@
+.container {
+  border: 1px solid green;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.caixa {
+  background: pink;
+  width: 40px;
+  border: 1px solid blue;
+}

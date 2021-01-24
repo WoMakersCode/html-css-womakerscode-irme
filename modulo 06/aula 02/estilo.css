@@ -1,0 +1,13 @@
+.caixa {
+  background-color: green;
+  width: 100px;
+  height: 1100px;
+}
+
+.caixa-absoluta {
+  background-color: pink;
+  height: 100px;
+  width: 200px;
+  position: fixed;
+  top: 10px;
+}

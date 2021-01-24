@@ -1,0 +1,8 @@
+.exemplo::after {
+  content: " - DEPOIS";
+}
+
+
+.exemplo::before {
+  content: "ANTES - ";
+}

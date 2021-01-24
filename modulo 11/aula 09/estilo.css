@@ -1,0 +1,26 @@
+.container {
+  border: 1px solid green;
+  display: flex;
+}
+
+.caixa {
+  background: pink;
+  width: 40px;
+  border: 1px solid blue;
+}
+
+.caixa:nth-child(1) {
+  order: 1;
+}
+
+.caixa:nth-child(2) {
+  order: 2;
+}
+
+.caixa:nth-child(3) {
+  order: 1;
+}
+
+.caixa:nth-child(4) {
+  order: 1;
+}

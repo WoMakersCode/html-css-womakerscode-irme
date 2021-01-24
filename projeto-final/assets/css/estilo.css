@@ -1,0 +1,150 @@
+body {
+  background-color: #313131;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  color: #f4f4f4;
+  --cor-destaque: #87d0a6;
+}
+
+.header {
+  width: 100%;
+  max-width: 900px;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__link {
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.header__link:hover {
+  opacity: .6;
+}
+
+.header__link:focus {
+  outline: none;
+  background-color: #4d4d4d;
+  border-radius: 5px;
+}
+
+.icone {
+  width: 24px;
+  border-radius: 50%;
+}
+
+.icone--texto {
+  margin: 0 8px;
+  animation: pulsar 1s infinite alternate;
+}
+
+.main {
+  width: 100%;
+  max-width: 700px;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.perfil {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil__foto {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 6px solid #868686;
+}
+
+.perfil__nome {
+  font-family: 'Damion', cursive;
+  font-size: 52px;
+  font-weight: 400;
+  color: var(--cor-destaque);
+  margin: 16px 0;
+}
+
+.perfil__descricao {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.section {
+  padding: 8px;
+  width: 100%;
+  max-width: 350px;
+  margin: 24px auto;
+  box-sizing: border-box;
+}
+
+.section__titulo {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--cor-destaque);
+  margin: 16px 0;
+}
+
+.curso {
+  background-color: #3b3b3b;
+  padding: 8px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.curso__titulo {
+  font-size: 18px;
+  font-weight: 400;
+  color:var(--cor-destaque);
+  margin: 8px 0;
+}
+
+.curso__descricao {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+.footer {
+  width: 100%;
+  height: 42px;
+  background-color: var(--cor-destaque);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.footer__texto {
+  font-size: 14px;
+  font-weight: 400;
+  color: #313131;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}

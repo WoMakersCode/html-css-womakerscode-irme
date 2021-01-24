@@ -1,0 +1,13 @@
+.caixa-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #1fffb0;
+  transform: scaleY(2);
+}
+
+.caixa-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #fa60fc;
+  transform: scaleX(.3);
+}

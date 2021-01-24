@@ -1,0 +1,6 @@
+.caixa {
+  width: 100px;
+  height: 100px;
+  background: lightsalmon;
+  transform: skewX(10deg); /* skewY(15deg) */
+}

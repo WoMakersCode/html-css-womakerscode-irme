@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid green;
+	display: flex;
+}
+
+.caixa {
+	background: pink;
+  width: 70px;
+  height: 70px;
+  border: 1px solid blue;
+}
+
+.caixa:nth-child(2) {
+  flex-basis: 100px;
+}

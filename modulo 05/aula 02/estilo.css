@@ -1,0 +1,8 @@
+.elemento-pai {
+  width: 300px; /* largura */
+  background-color: green; /* cor de fundo */
+}
+
+.elemento-filho {
+  height: 10%; /* altura */
+}

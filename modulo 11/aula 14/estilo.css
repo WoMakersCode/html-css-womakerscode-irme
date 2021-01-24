@@ -1,0 +1,17 @@
+.container {
+  border: 1px solid green;
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.caixa {
+	background: pink;
+  width: 70px;
+  height: 70px;
+  border: 1px solid blue;
+}
+
+.caixa:nth-child(3) {
+  align-self: flex-end;
+}

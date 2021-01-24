@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+  color: tomato;
+}
+
+.link:hover {
+  color: violet;
+}
+
+.link:active {
+  color: darksalmon;
+}
+
+.link:focus {
+  outline: none;
+  border: 1px solid tomato;
+}

@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid green;
+  display: flex;
+  flex-wrap: wrap; /* valor padrão é nowrap */
+}
+
+.caixa {
+  background: pink;
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+}
